@@ -1,0 +1,2 @@
+export const ADSENSE_CLIENT_ID = 'ca-pub-9688127194384825';
+export const ADSENSE_DEFAULT_SLOT_ID = '8086252076';

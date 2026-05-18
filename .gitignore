@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Dependencies
+node_modules/
+
+# IDEs and editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.bak
+
+# Build artifacts
+dist/
+build/
+.temp/
+.DS_Store
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Secrets and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.csr
+*.ovpn
+*.secret
+*.secrets
+*secret*.json
+*credential*.json
+service-account*.json
+firebase-admin*.json
+google-credentials*.json
+supabase/.env
+supabase/**/*.env
